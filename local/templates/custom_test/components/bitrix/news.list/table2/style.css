@@ -1,0 +1,153 @@
+div.news-list img.preview-picture
+{
+	float:left;
+	margin:0 4px 6px 0;
+}
+
+p.news-item
+{
+	margin:0;
+	margin-bottom:15px;
+}
+
+.news-date-time
+{
+	font-size:95%;
+	display:block;
+	color:#82929a;
+}
+
+.preview-picture {
+
+	border: 1px solid #E4E7E9;
+}
+.custom-span{
+    font-size: 0.7rem;
+    color:#7e7c7c;
+}
+.custom-span.weight{
+    font-weight: 600;
+}
+.custom-small{
+    width:17px;
+    cursor:pointer;
+}
+.custom-float{
+    float: left;
+}
+.custom-align{
+    margin-bottom: 8px;
+    
+}
+.custom-align button{
+    margin-bottom: 8px;
+    background-color: #00d4d4;
+    border-color: #00d4d4;
+}
+button.btn-info{
+    height: 33px;
+    text-align: center;
+    padding-top: 1px;
+    padding-bottom: 0px;
+    border-radius: 30px;
+    font-size: 0.6em;
+}
+.custom-input{
+    
+}
+.custom-popup-content{
+    margin-top: 50px;
+    text-align: center;
+}
+.custom-btn-primary{
+    background-color: #007bff !important;
+    width: 100%;
+    height: 30px;
+    padding-top: -0px;
+    margin-bottom: 0px;
+    margin-top: 40px;
+    font-size: smaller;
+}
+.custom-header{
+    font-size: 0.8rem;
+    color:#7e7c7c;
+    font-weight: 600;
+}
+.custom-input{
+    border: 2px solid #aeaeae;
+    width: 32%;
+    height: 30px;
+    border-radius: 3px;
+    color: #aeaeae;
+    font-size: 0.7em;
+}
+input::-moz-placeholder{
+    color: #aeaeae;
+}
+input::-webkit-input-placeholder{
+    color: #aeaeae;
+}
+.custom-delete-conf{
+    background-color: #db3742;
+    border-color: #db3742;
+    color:#ffffff;
+    font-size: xx-small;
+}
+.custom-not-delete-conf{
+    background-color: #6f7782;
+    border-color: #6f7782;
+    color:#303539;
+    font-size: xx-small;
+}
+.custom-popup-header.custom-header{
+    font-size: medium;
+}
+.custom-popup-content.custom-margin{
+    margin-top: 30px;
+}
+.custom-tr{
+    color:#7e7c7c;
+}
+
+
+
+
+
+.popup-fade {
+	display: none;
+}
+.popup-fade:before {
+	content: '';
+	background: #000;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0.01;
+	z-index: 9999;
+
+}
+.popup {
+	position: fixed;
+	top: 20%;
+	left: 50%;
+	padding: 20px;
+	/*width: 360px;*/
+	margin-left: -300px;
+	background: #f9f9f9;
+	border: 1px solid #9d9d9d;
+	border-radius: 4px;
+	z-index: 99999;
+	opacity: 1;
+        box-shadow: 0px 0px 150px 0px rgba(0, 0, 0, 0.8);
+}
+.popup-close {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+a.popup-close{
+    color: #9d9d9d;
+    text-decoration: none;
+}
